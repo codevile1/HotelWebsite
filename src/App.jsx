@@ -13,7 +13,7 @@ import Page9 from "./UI/page9"
 
 const App = () => {
   return (
-    <>
+    <div className="bg-gray-100">
     {/* <Header/> */}
     < ImageSlider/>
     <About/>
@@ -26,7 +26,7 @@ const App = () => {
     <Page8/>
     <Page9/>
     <Finalpage/>
-    </>
+    </div>
   )
 }
 
