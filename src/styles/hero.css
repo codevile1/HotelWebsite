@@ -1,0 +1,102 @@
+/* ✅ Hero-specific styles — pure CSS */
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  animation: scalePulse 7s ease-in-out infinite;
+  z-index: 0;
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  animation: slideInOut 8s ease-in-out infinite;
+  z-index: 10;
+}
+
+.hero-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 🔁 Keyframes */
+@keyframes scalePulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.30);
+  }
+  100%{
+    transform: scale(1)
+  }
+}
+
+@keyframes slideInOut {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  20% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  80% {
+    transform: translateX(0%) scale(1.15);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+.stroke-animation ellipse {
+  animation: drawStroke 8s linear infinite;
+}
+
+@keyframes drawStroke {
+  0% {
+    stroke-dashoffset: 600;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.stroke-animation2 ellipse {
+  animation: drawStroke 15s linear infinite;
+    animation-delay: 6s;
+}
+
+@keyframes drawStroke {
+  0% {
+    
+    stroke-dashoffset: 600;
+  }
+  100% {
+    stroke-dashoffset: 2;
+  }
+}
+
+
+.stroke-animation3 ellipse {
+  animation: drawStroke 10s linear infinite;
+    animation-delay: 22s;
+}
+
+@keyframes drawStroke {
+  0% {
+    
+    stroke-dashoffset: 600;
+  }
+  100% {
+    stroke-dashoffset: 2;
+  }
+}
+
