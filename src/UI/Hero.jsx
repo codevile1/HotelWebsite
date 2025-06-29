@@ -80,7 +80,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-slide z-10">
-        <img src="/img2.jpeg" alt="Slide" />
+        <img src="https://s3-alpha-sig.figma.com/img/8a27/bb15/138a58169a65d72ed8088d58335a5816?Expires=1751846400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=H79ObLB4-kGnBCQNtdNc9Ch10zRxr-fsbY3N3cH10vyBdXoOdEsvP8bGXItbSRRL3baLTAxw7vJrpk7XqzrodTej-TmsoH4z~g~ibwhJDrQfmwI2g74I9Rs4oMWV2qlmRNu2tXW1OTtKBEGmMhu6vg-huy9TojV47up~3a-KCAnQcMF1s7~KA9BAyOqUrr7HCrIFr9~LjFoC4Vfr~pxtZo39w-kT1KEwn6w96axUNsguhaKlg-uF4S-T7dmeFsIlWSEwn77AcvzLjiBTPH-dIRyuQIb5xnW5LUan00Vb1TpYwhli2XQFz3db4DUHN0F4D-USkYqB6wH32cEzL~F9eQ__" alt="Slide" />
       </div>
     </div>
   );

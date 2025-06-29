@@ -58,7 +58,7 @@
   }
 }
 .stroke-animation ellipse {
-  animation: drawStroke 8s linear infinite;
+  animation: drawStroke 5s linear infinite;
 }
 
 @keyframes drawStroke {
@@ -70,8 +70,8 @@
   }
 }
 .stroke-animation2 ellipse {
-  animation: drawStroke 15s linear infinite;
-    animation-delay: 6s;
+  animation: drawStroke 10s linear infinite;
+    animation-delay: 5s;
 }
 
 @keyframes drawStroke {
@@ -86,8 +86,8 @@
 
 
 .stroke-animation3 ellipse {
-  animation: drawStroke 10s linear infinite;
-    animation-delay: 22s;
+  animation: drawStroke 20s linear infinite;
+    animation-delay: 10s;
 }
 
 @keyframes drawStroke {
