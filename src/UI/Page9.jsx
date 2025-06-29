@@ -19,7 +19,7 @@ const data = [
   },
 ];
 
-const Page9 = () => {
+const Page10 = () => {
   return (
     <div
       className="relative w-full h-screen bg-cover bg-center bg-gray-100"
@@ -77,4 +77,4 @@ const Page9 = () => {
   );
 };
 
-export default Page9;
+export default Page10;
