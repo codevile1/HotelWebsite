@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/HotelWebsite/', // 👈 IMPORTANT: this must match your repo name
+  base: './', // 🔴 Add this line!
   plugins: [react(),tailwindcss(),
 ],
 })
