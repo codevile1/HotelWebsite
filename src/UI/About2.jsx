@@ -17,9 +17,9 @@ const About2 = () => {
           <img src="https://s3-alpha-sig.figma.com/img/b949/0e73/6b8c7aa7f54f758b9dc048f9dc274fa7?Expires=1751846400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=q7VTGEuo-4M8L2tTWeRNvS2NEqc4gMG~ujw6Tx2gixha2Qvz-8AtteezRv8LBtl5fc5hJOEHVyrOYzvkvXWqOxPpj4WZi8-boVvWmHXq09vZK7Evyn8OHt~HxYABFahLhXkUbx~35CT3msZBzE6KhdX0g22AWGcx4FPcVa7OleBgsXZDP5KUq4EfJZMqu9~fYOhV~hrIDQ6O2bU4EszDc6G00haPrxMnhzM6XdPp~5baUFkA8kR0HwdLtR5JDeixiBM1U2vdKC-5H~qgi17K3QRuFFKmlk-3c7nYeCVvg5ffva0O2k~w7owZOIAkJDB8PlN27CFFi70k6ah136AvbQ__" alt="Swim" />
         </div>
       </div>
-      <div className="absolute z-50 border-1 w-[27vw] h-[27vw] bg-white/10 backdrop-blur-sm border-gray-300 flex items-center justify-center">
-        <div className="absolute z-50  w-[24vw] h-[24vw] bg-white flex items-center justify-center ">
-          <div className="absolute z-50 text-xl text-gray-600 font-serif  w-[21vw] h-[21vw] border-2 border-gray-300 gap-3 bg-white flex items-center justify-center flex-col">
+      <div className="absolute z-50 border-1 lg:w-[27vw] w-[55vw] lg:h-[27vw] h-[55vw] bg-white/10 backdrop-blur-sm border-gray-300 flex items-center justify-center">
+        <div className="absolute z-50  lg:w-[24vw] w-[50vw] lg:h-[24vw] h-[50vw] bg-white flex items-center justify-center ">
+          <div className="absolute z-50 lg:text-xl text-xs text-gray-600 font-serif  lg:w-[21vw] w-[45vw] lg:h-[21vw] h-[45vw] border-2 border-gray-300 lg:gap-3 gap-1 bg-white flex items-center justify-center flex-col">
             <h1>Favourite hotel</h1>
             <h1>Business and Event Spaces</h1>
             <h1>Diverse Dining Options</h1>

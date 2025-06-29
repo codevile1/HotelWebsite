@@ -3,16 +3,16 @@ import { FaApple, FaGooglePlay } from "react-icons/fa";
 const Card = ({ titleTop, titleMid, subtitleMid, buttonText, bgImage }) => {
   return (
     <div
-      className="w-[80vw] h-[80vh] bg-cover bg-center flex flex-col justify-between items-center  p-10 border-b-2 border-gray-500"
+      className="lg:w-[80vw] h-[80vh] bg-cover bg-center flex flex-col justify-between items-center  p-10 border-b-2 border-gray-500"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="w-[77vw] h-[78vh] border-2 border-white text-white flex items-center justify-evenly flex-col">
-        <h2 className="text-2xl  ">{titleTop}</h2>
+        <h2 className="lg:text-2xl  ">{titleTop}</h2>
         <div className="flex items-center justify-center  flex-col">
-          <h3 className="text-6xl text-center font-serif font-medium">
+          <h3 className="lg:text-6xl text-3xl text-center font-serif font-medium">
             {titleMid}
           </h3>
-          <h5 className="text-2xl  mt-2">{subtitleMid}</h5>
+          <h5 className="lg:text-2xl text-xs  mt-2">{subtitleMid}</h5>
         </div>
 
         <div className="flex justify-center items-center gap-8 mb-4 relative">

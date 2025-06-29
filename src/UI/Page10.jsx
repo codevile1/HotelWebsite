@@ -47,11 +47,11 @@ const Page10 = () => {
             key={i}
             className="snap-start w-full h-screen flex items-center justify-center"
           >
-            <div className="w-[27vw] h-[27vw] bg-white/10 backdrop-blur-sm border border-gray-300 flex items-center justify-center">
-              <div className="w-[24vw] h-[24vw] bg-white flex items-center justify-center">
-                <div className="text-xl font-serif w-[21vw] h-[21vw] border-2 border-gray-300 gap-3 bg-white flex items-center justify-center flex-col px-4 text-center">
-                  <h1 className="text-3xl font-black">{title}</h1>
-                  <p className="text-base text-gray-700">{paragraph}</p>
+            <div className="lg:w-[27vw] w-[55vw] lg:h-[27vw] h-[45vh] bg-white/10 backdrop-blur-sm border border-gray-300 flex items-center justify-center">
+              <div className="lg:w-[24vw]  w-[50vw] lg:h-[24vw] h-[42vh] bg-white flex items-center justify-center">
+                <div className="text-xl font-serif lg:w-[21vw] w-[45vw] lg:h-[21vw] h-[39vh] border-2 border-gray-300 gap-3 bg-white flex items-center justify-center flex-col px-4 text-center">
+                  <h1 className="lg:text-3xl text-xl font-black">{title}</h1>
+                  <p className="lg:text-base text-xs text-gray-700">{paragraph}</p>
                   <button className="mt-4 px-6 py-2 border border-gray-700 rounded-full text-sm font-semibold hover:bg-gray-700 hover:text-white transition-all">
                     {button}
                   </button>

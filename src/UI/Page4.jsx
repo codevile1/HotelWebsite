@@ -29,7 +29,7 @@ const Page4 = () => {
   return (
     <div className="w-screen h-screen overflow-hidden flex  flex-col pt-12  bg-gray-100  ">
      
-      <div className="  text-7xl font-serif font-medium text-center py-4 z-10 mb-3">
+      <div className="  lg:text-7xl text-3xl font-serif font-medium text-center py-4 z-10 mb-3">
       Stay Packages
       </div>
 

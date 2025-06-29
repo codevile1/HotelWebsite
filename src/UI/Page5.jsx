@@ -36,7 +36,7 @@ const Page5 = () => {
         {gridData.map((item, index) => (
           <div
             key={index}
-            className="group relative h-[600px] overflow-hidden rounded-xl cursor-pointer"
+            className="group relative lg:h-[600px] h-[70vh] overflow-hidden rounded-xl cursor-pointer"
           >
             
             <div
@@ -62,7 +62,7 @@ const Page5 = () => {
   </div>
 
   
-  <div className="border-1 border-white font-sans bg-white/20 backdrop-blur-md px-8 py-4 rounded-full text-base font-medium text-white transition-all duration-300 group-hover:opacity-0 z-20 relative">
+  <div className="border-1 border-white font-sans bg-white/20 backdrop-blur-md lg:px-8 px-8 lg:py-4 py-2 rounded-full lg:text-base text-xs font-medium text-white transition-all duration-300 group-hover:opacity-0 z-20 relative">
     Spa & Wellness
   </div>
 </div>
